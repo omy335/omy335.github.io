@@ -158,6 +158,8 @@ section {
         overflow-x: hidden;
         overflow-y: scroll;
         background-size: cover;
+        font-family: 'Raleway', sans-serif;
+        background: url("../img/bg.jpeg") no-repeat fixed center center;
     }
     .nav {
         background-color: #333;
