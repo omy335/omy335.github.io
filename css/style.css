@@ -83,6 +83,10 @@ section {
     margin-left: 25vw;
 }
 
+.info {
+    padding-top: 80px;
+}
+
 .about .info ul {
     list-style-type: none;
 }
@@ -96,8 +100,8 @@ section {
     margin-bottom: 10px;
 }
 
-.info {
-    padding-top: 80px;
+.info summary {
+    color: coral;
 }
 
 .contact {
