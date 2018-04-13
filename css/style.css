@@ -1,0 +1,146 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background: url("../img/bg.jpeg") no-repeat fixed center center;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    background: rgba(1, 1, 1, 0.6);
+}
+
+.nav {
+    background-color: #333;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    height: 53px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-icon {
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+.nav ul li a:not(#nv-icon):hover {
+    color: black;
+    background-color: #fff;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+}
+
+.home h1 {
+    padding-top: 300px;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
+
+.home p {
+    margin-top: 8px;
+}
+
+.about {
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.about .info ul {
+    list-style-type: none;
+}
+
+.about .info ul.prog-lang-list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.about .info ul.classes-list li {
+    margin-bottom: 10px;
+}
+
+.info {
+    padding-top: 80px;
+}
+
+.contact {
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.contact-info h1 {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+.contact-info address {
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.contact-info p {
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.contact-info a {
+    color: coral;
+}
+
+.contact-info ul.contact-links {
+    padding-left: 0;
+    margin-top: 50px;
+    border-style: solid;
+    list-style-type: none;
+}
+
+.contact-info ul li {
+    font-size: 2em;
+    margin-right: 30px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.contact-info ul li.link-icon {
+    font-size: 2em;
+    margin-right: 5px;
+}
