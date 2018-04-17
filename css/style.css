@@ -39,6 +39,8 @@ body {
 
 .nav-icon {
     float: left;
+    padding: 0;
+    margin-left: 10px;
 }
 
 .nav-links {
@@ -150,7 +152,7 @@ section {
     margin-right: 5px;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .body {
         margin: 0;
         padding: 0;
@@ -198,5 +200,18 @@ section {
     .contact {
         width: 50vw;
         margin-left: 25vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .greeting h1 {
+        padding-top: 200px;
+    }
+    .nav {
+        width: 100vw;
+    }
+    .contact {
+        width: 70vw;
+        margin-left: 15vw;
     }
 }
